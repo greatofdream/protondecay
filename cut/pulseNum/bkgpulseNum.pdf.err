@@ -1,0 +1,24 @@
+
+(pulse.py:69263): Gdk-CRITICAL **: 07:16:18.780: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+Traceback (most recent call last):
+  File "pulse.py", line 59, in <module>
+    for i,(qe, ht, r, kst, dt, mst) in enumerate(zip(qedep, hitTimeSingle, r0, kaonStopTime, decayTime, michelStartT)):
+  File "/cvmfs/juno.ihep.ac.cn/ci/gentoo/usr/lib64/python3.6/site-packages/awkward/array/chunked.py", line 287, in __iter__
+    for x in chunk[:self._chunksizes[i]]:
+  File "/cvmfs/juno.ihep.ac.cn/ci/gentoo/usr/lib64/python3.6/site-packages/awkward/array/virtual.py", line 369, in __getitem__
+    return self.array[where]
+  File "/cvmfs/juno.ihep.ac.cn/ci/gentoo/usr/lib64/python3.6/site-packages/awkward/array/virtual.py", line 295, in array
+    return self.materialize()
+  File "/cvmfs/juno.ihep.ac.cn/ci/gentoo/usr/lib64/python3.6/site-packages/awkward/array/virtual.py", line 326, in materialize
+    array = self._util_toarray(self._generator(*self._args, **self._kwargs), self.DEFAULTTYPE)
+  File "/cvmfs/juno.ihep.ac.cn/ci/gentoo/usr/lib64/python3.6/site-packages/uproot/tree.py", line 1861, in __call__
+    tree = self.trees[self.paths[pathi]] = uproot.rootio.open(self.paths[pathi])[self.treepath]
+  File "/cvmfs/juno.ihep.ac.cn/ci/gentoo/usr/lib64/python3.6/site-packages/uproot/rootio.py", line 54, in open
+    return ROOTDirectory.read(openfcn(path), **options)
+  File "/cvmfs/juno.ihep.ac.cn/ci/gentoo/usr/lib64/python3.6/site-packages/uproot/rootio.py", line 51, in <lambda>
+    openfcn = lambda path: MemmapSource(path, **kwargs)
+  File "/cvmfs/juno.ihep.ac.cn/ci/gentoo/usr/lib64/python3.6/site-packages/uproot/source/memmap.py", line 21, in __init__
+    self._source = numpy.memmap(self.path, dtype=numpy.uint8, mode="r")
+  File "/cvmfs/juno.ihep.ac.cn/ci/gentoo/usr/lib64/python3.6/site-packages/numpy/core/memmap.py", line 264, in __new__
+    mm = mmap.mmap(fid.fileno(), bytes, access=acc, offset=start)
+OSError: [Errno 12] Cannot allocate memory

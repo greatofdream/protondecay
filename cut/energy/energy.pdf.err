@@ -1,0 +1,2 @@
+
+(energy.py:49655): Gdk-CRITICAL **: 15:26:08.032: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed

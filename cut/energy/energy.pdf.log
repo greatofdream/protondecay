@@ -1,0 +1,26 @@
+Namespace(bkg=['/junofs/users/junoprotondecay/guoyh/offlines/offline3745/simulation_result/BKG/ana/RawData/ANRawData_0.root', '/junofs/users/junoprotondecay/guoyh/offlines/offline3745/simulation_result/BKG/ana/RawData/ANRawData_1.root', '/junofs/users/junoprotondecay/guoyh/offlines/offline3745/simulation_result/BKG/ana/RawData/ANRawData_2.root', '/junofs/users/junoprotondecay/guoyh/offlines/offline3745/simulation_result/BKG/ana/RawData/ANRawData_3.root'], opt='energy/energy.pdf', pd=['/junofs/users/junoprotondecay/guoyh/offlines/offline3745/simulation_result/SIG/ana/RawData/PDRawData_0.root'])
+100MeV-650MeV:(9948,),0.9948
+200MeV-600MeV:(9671,),0.9671
+100MeV-150MeV:(91,),0.0091
+150MeV-200MeV:(168,),0.0168
+600MeV-650MeV:(18,),0.0018
+650MeV-750MeV:(3,),0.0003
+100MeV-650MeV:(63663,),0.4326
+200MeV-600MeV:(47262,),0.3211
+100MeV-150MeV:(5725,),0.0389
+150MeV-200MeV:(6646,),0.0452
+600MeV-650MeV:(4030,),0.0274
+650MeV-750MeV:(8196,),0.0557
+select in 100-650
+100MeV-650MeV:(9857,),1.0000
+200MeV-600MeV:(9671,),0.9811
+100MeV-150MeV:(0,),0.0000
+150MeV-200MeV:(168,),0.0170
+600MeV-650MeV:(18,),0.0018
+650MeV-750MeV:(0,),0.0000
+100MeV-650MeV:(57938,),1.0000
+200MeV-600MeV:(47262,),0.8157
+100MeV-150MeV:(0,),0.0000
+150MeV-200MeV:(6646,),0.1147
+600MeV-650MeV:(4030,),0.0696
+650MeV-750MeV:(0,),0.0000

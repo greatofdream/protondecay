@@ -1,0 +1,2 @@
+
+(pulse.py:330385): Gdk-CRITICAL **: 07:11:11.058: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
